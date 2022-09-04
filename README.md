@@ -65,6 +65,7 @@ We have already include the expanded class names and encoded datasets for IMDb, 
 ```bash
 python run.py --dataset imdb --template 0
 ```
+Averaging the final results of template 0 to 3 gives the number in Table 1 of the paper.
 
 To reproduce the results on other datasets:
 
@@ -82,13 +83,13 @@ CUDA_VISIBLE_DEVICES=0 python encode_dataset.py --dataset agnews
 
 3. Run SimPTC.
 
-   1. To reproduce the results on AG's News, DBpedia, Yahoo, IMDB, Amazon:
+   1. To reproduce the results on AG's News, DBpedia, Yahoo, IMDB, Amazon: (Averaging the final results of template 0 to 3 gives the number in Table 1 of the paper.)
 
    ```bash
    python run.py --dataset agnews --template 0
    ```
 
-   2. To reproduce the results on TC14
+   2. To reproduce the results on TC14 (we only use the naive template "<mask>" on TC14, running the following code gives the numbers in Figure 4)
 
    ```bash
    python run.py --dataset sst2
