@@ -1,4 +1,4 @@
-# SimPTC Readme
+# SimPTC
 
 This is a codebase to perform zero-shot text classification with SimPTC. 
 
