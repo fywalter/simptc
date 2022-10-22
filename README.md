@@ -1,6 +1,6 @@
-# SimPTC
+# Beyond prompting: Making Pre-trained Language Models Better Zero-shot Learners by Clustering Representations
 
-This is a codebase to perform zero-shot text classification with SimPTC. 
+Code and datasets for EMNLP 2022 paper: Beyond prompting: Making Pre-trained Language Models Better Zero-shot Learners by Clustering Representations
 
 ## Installation
 
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ## Download the data
 
-All the datasets we used are publicly available text classification datasets. One can download all datasets using the following anonymous link: https://drive.google.com/file/d/1MDO8LDRUNC-T8OCtHDk8yfuSnjo84EMX/view?usp=sharing
+All the datasets we used are publicly available text classification datasets. One can download all datasets using the following link: https://drive.google.com/file/d/1MDO8LDRUNC-T8OCtHDk8yfuSnjo84EMX/view?usp=sharing
 
 - One should put the `datasets` and `embeddings` folders at the same directory of the codes.
 - `datasets` contains texts and labels for all datasets.
