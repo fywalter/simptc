@@ -1,6 +1,6 @@
 # Beyond prompting: Making Pre-trained Language Models Better Zero-shot Learners by Clustering Representations
 
-Code and datasets for EMNLP 2022 paper: Beyond prompting: Making Pre-trained Language Models Better Zero-shot Learners by Clustering Representations
+Code and datasets for EMNLP 2022 paper: [Beyond prompting: Making Pre-trained Language Models Better Zero-shot Learners by Clustering Representations](https://arxiv.org/abs/2210.16637)
 
 ## Installation
 
